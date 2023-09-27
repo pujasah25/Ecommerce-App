@@ -1,0 +1,39 @@
+.slider {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  .container {
+    width: 300vw; // as we have 3 images
+    height: 100%; // parent 100%
+    display: flex;
+    // we will move our images dynamically using jsx
+    transition: all 1s ease;
+    img {
+      width: 100vw;
+      height: 100%; // if we are giving % then we have to give for parent also
+      object-fit: cover;
+    }
+  }
+  .icons {
+    width: fit-content; // width:100px;
+    display: flex;
+    position: absolute;
+    // to center the left right icons we need width also
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    gap: 10px;
+    margin: auto;
+    .icon {
+      width: 50px;
+      height: 50px;
+      border: 1px solid #999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+}
+

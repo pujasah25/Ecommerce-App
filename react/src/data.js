@@ -1,0 +1,35 @@
+const data = [
+    {
+      id: 1,
+      img: "https://rukminim2.flixcart.com/image/850/1000/jjn6d8w0/t-shirt/6/h/c/m-561qiensign-blue-french-connection-original-imaf73sz4ffhtbhs.jpeg?q=90",
+      img2: "https://m.media-amazon.com/images/I/51TdxI6x3tL._SX466_.jpg",
+      title: "T-shirt",
+      isNew: true,
+      oldPrice: 200,
+      price: 150,
+    },
+    {
+      id: 2,
+      img: "https://media.istockphoto.com/id/1357329192/photo/lifestyle-portrait-of-fashionable-woman-wearing-winter-or-spring-outfit-felt-hat-gray-wool.jpg?b=1&s=612x612&w=0&k=20&c=6oAdmT-5gCXgtwBfhRA7k4aFLRmODDI-60PhAC5OPTg=",
+      title: "Coat",
+      isNew: false,
+      oldPrice: 900,
+      price: 750,
+    },
+    {
+      id: 3,
+      img: "https://images.unsplash.com/photo-1615898290837-e9e8cdc3a7fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNraXJ0fGVufDB8fDB8fHww&w=1000&q=80",
+      title: "Skirt",
+      isNew: true,
+      oldPrice: 500,
+      price: 450,
+    },
+    {
+      id: 4,
+      img: "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8809389/2021/11/16/3e10979e-11ca-4d03-9f54-271ef278919b1637062918815-Purple-State-Men-Yellow-Solid-Straight-Kurta-512163706291820-1.jpg",
+      title: "Kurta",
+      isNew: false,
+      oldPrice: 400,
+      price: 300,
+    },
+  ];
